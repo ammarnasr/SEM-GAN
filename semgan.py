@@ -2,7 +2,7 @@
 DATA_DIR = "../data/birds"
 EMBEDDING_DIM = 256
 # NET_G = "/content/netG_epoch_600.pth"
-NET_G = "/content/Bird-Image-Generator/netG_epoch_600.pth"
+NET_G = "netG_epoch_600.pth"
 # NET_G = "/content/drive/MyDrive/cubModelGAN/netG_epoch_600.pth"
 WORDS_NUM = 18
 RNN_TYPE = 'LSTM'
