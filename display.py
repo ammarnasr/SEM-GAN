@@ -19,3 +19,15 @@ def display_images(bs=1):
 
 def printmd(string):
     display(Markdown(string))
+
+
+if __name__ == "__main__":
+    n = len(sys.argv)
+    
+    if n == 1 :
+        display_images()
+
+    if n == 2:
+        bs = int(sys.argv[1])
+        display_images(bs)
+        
