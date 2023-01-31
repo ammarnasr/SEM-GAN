@@ -3,7 +3,7 @@ from PIL import Image, ImageDraw, ImageFont
 from IPython.display import Image as Iamge_ipy
 from IPython.display import display
 from IPython.display import Markdown, display
-impot sys
+import sys
 def display_images(bs=1):
   filepath = "example_captions.txt"
   with open(filepath, "r") as f:
